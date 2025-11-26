@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global resets aligned to Figma */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-gray-900 font-sans antialiased;
+}
+
+/* Smooth sidebar/app layout without Vite demo constraints */
+#root {
+  @apply w-full h-full m-0 p-0;
+}
